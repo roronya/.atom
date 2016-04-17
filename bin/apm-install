@@ -1,0 +1,10 @@
+#!/bin/sh
+while read package;
+do
+	if [ ! -d "$HOME/.atom/packages/$package" ];
+	then
+		apm install $package;
+	else
+		echo "$package is already installed."
+	fi
+done < $1

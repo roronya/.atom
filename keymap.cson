@@ -4,3 +4,6 @@
   'ctrl-k j': 'pane:split-down'
   'ctrl-k k': 'pane:split-up'
   'ctrl-k l': 'pane:split-right'
+
+'.platform-linux':
+  'alt-x': 'command-palette:toggle'

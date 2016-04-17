@@ -4,3 +4,6 @@ compile-cache/
 .node-gyp/
 packages/
 storage/
+nohup.out
+npm-debug.log
+projects.cson
