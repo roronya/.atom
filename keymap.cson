@@ -1,0 +1,6 @@
+'body':
+  'ctrl-c': 'core:cancel'
+  'ctrl-k h': 'pane:split-left'
+  'ctrl-k j': 'pane:split-down'
+  'ctrl-k k': 'pane:split-up'
+  'ctrl-k l': 'pane:split-right'
