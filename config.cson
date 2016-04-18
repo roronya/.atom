@@ -1,10 +1,12 @@
 "*":
   Hydrogen:
-    kernelspec: "{\"kernelspecs\":{\"python3\":{\"resource_dir\":\"/usr/local/lib/python3.4/dist-packages/ipykernel/resources\",\"spec\":{\"argv\":[\"/usr/bin/python3\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"],\"language\":\"python\",\"display_name\":\"Python 3\",\"env\":{}}}}}"
+    grammarToKernel: "{\"python\":\"Python 3\"}"
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"display_name\":\"Python 3\",\"env\":{},\"argv\":[\"/home/roronya/.pyenv/versions/3.4.3/bin/python3.4\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"],\"language\":\"python\"},\"resources_dir\":\"/home/roronya/.pyenv/versions/3.4.3/lib/python3.4/site-packages/ipykernel/resources\"}}}"
   "atom-beautify":
     general:
       _analyticsUserId: "01c1368c-6e89-476f-8135-132294ef41f5"
   core:
+    autoHideMenuBar: true
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
