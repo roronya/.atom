@@ -1,9 +1,15 @@
 'body':
-  'ctrl-c': 'core:cancel'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-k h': 'pane:split-left'
   'ctrl-k j': 'pane:split-down'
   'ctrl-k k': 'pane:split-up'
   'ctrl-k l': 'pane:split-right'
+  'ctrl-g': 'core:cancel'
+  'ctrl-x ctrl-s': 'core:save'
 
-'.platform-linux':
+'.platform-linux, .platform-linux .command-palette atom-text-editor':
+  'ctrl-shift-P': 'unset!'
   'alt-x': 'command-palette:toggle'

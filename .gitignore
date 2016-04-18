@@ -7,3 +7,5 @@ storage/
 nohup.out
 npm-debug.log
 projects.cson
+.npm/
+electron/
