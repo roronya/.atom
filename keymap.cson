@@ -10,6 +10,30 @@
   'ctrl-g': 'core:cancel'
   'ctrl-x ctrl-s': 'core:save'
 
+'.tool-panel.panel-left, .tool-panel.panel-right':
+  'ctrl-g': 'tool-panel:unfocus'
+
+'atom-text-editor , atom-text-editor[mini] ':
+  'ctrl-g': 'editor:consolidate-selections'
+
+'atom-text-editor.vim-mode-plus':
+  'ctrl-g': 'vim-mode-plus:reset-normal-mode'
+
+'atom-text-editor.vim-mode-plus:not(.normal-mode)':
+  'ctrl-g': 'vim-mode-plus:activate-normal-mode'
+
+'.tree-view-dialog atom-text-editor[mini]':
+  'ctrl-g': 'core:cancel'
+
+'atom-text-editor.autocomplete-active':
+  'ctrl-g': 'autocomplete-plus:cancel'
+
+'.go-to-line atom-text-editor[mini]':
+  'ctrl-g': 'core:cancel'
+
+'.platform-darwin, .platform-win32, .platform-linux':
+  'ctrl-g': 'core:cancel'
+
 '.platform-linux, .platform-linux .command-palette atom-text-editor':
   'ctrl-shift-P': 'unset!'
   'alt-x': 'command-palette:toggle'

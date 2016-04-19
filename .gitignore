@@ -9,3 +9,4 @@ npm-debug.log
 projects.cson
 .npm/
 electron/
+remoteEdit.json
