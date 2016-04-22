@@ -3,37 +3,60 @@
   'ctrl-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
-  'ctrl-k h': 'pane:split-left'
-  'ctrl-k j': 'pane:split-down'
-  'ctrl-k k': 'pane:split-up'
-  'ctrl-k l': 'pane:split-right'
-  'ctrl-g': 'core:cancel'
-  'ctrl-x ctrl-s': 'core:save'
+  'shift-space p s h': 'pane:split-left-and-copy-active-item'
+  'shift-space p s j': 'pane:split-down-and-copy-active-item'
+  'shift-space p s k': 'pane:split-up-and-copy-active-item'
+  'shift-space p s l': 'pane:split-right-and-copy-active-item'
+  'shift-space p h': 'window:focus-pane-on-left'
+  'shift-space p j': 'window:focus-pane-below'
+  'shift-space p k': 'window:focus-pane-above'
+  'shift-space p l': 'window:focus-pane-on-right'
+  'shift-space p w': 'pane:close'
+  'shift-space p =': 'pane:increase-size'
+  'shift-space p -': 'pane:decrease-size'
+  'ctrl-alt-h': 'core:close'
+  'ctrl-k ctrl-w': 'unset!'
+  'ctrl-w': 'unset!'
+
+'atom-text-editor':
+  'alt-b': 'unset!'
+  'alt-d': 'unset!'
+  'alt-f': 'unset!'
+  'alt-h': 'unset!'
+  'alt-shift-B': 'unset!'
+  'alt-shift-F': 'unset!'
+  'ctrl-alt-b': 'unset!'
+  'ctrl-alt-d': 'unset!'
+  'ctrl-alt-f': 'unset!'
+  'ctrl-alt-h': 'unset!'
+  'ctrl-alt-shift-B': 'unset!'
+  'ctrl-alt-shift-F': 'nnset!'
+
 
 '.tool-panel.panel-left, .tool-panel.panel-right':
-  'ctrl-g': 'tool-panel:unfocus'
+  'ctrl-c': 'tool-panel:unfocus'
 
 'atom-text-editor , atom-text-editor[mini] ':
-  'ctrl-g': 'editor:consolidate-selections'
+  'ctrl-c': 'editor:consolidate-selections'
 
 'atom-text-editor.vim-mode-plus':
-  'ctrl-g': 'vim-mode-plus:reset-normal-mode'
+  'ctrl-c': 'vim-mode-plus:reset-normal-mode'
 
 'atom-text-editor.vim-mode-plus:not(.normal-mode)':
-  'ctrl-g': 'vim-mode-plus:activate-normal-mode'
+  'ctrl-c': 'vim-mode-plus:activate-normal-mode'
 
 '.tree-view-dialog atom-text-editor[mini]':
-  'ctrl-g': 'core:cancel'
+  'ctrl-c': 'core:cancel'
 
 'atom-text-editor.autocomplete-active':
-  'ctrl-g': 'autocomplete-plus:cancel'
+  'ctrl-c': 'autocomplete-plus:cancel'
 
 '.go-to-line atom-text-editor[mini]':
-  'ctrl-g': 'core:cancel'
+  'ctrl-c': 'core:cancel'
 
 '.platform-darwin, .platform-win32, .platform-linux':
-  'ctrl-g': 'core:cancel'
+  'ctrl-c': 'core:cancel'
 
-'.platform-linux, .platform-linux .command-palette atom-text-editor':
+'.platform-linux, .platform-linux .command-palette atom-text-e':
   'ctrl-shift-P': 'unset!'
   'alt-x': 'command-palette:toggle'
