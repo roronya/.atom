@@ -1,10 +1,20 @@
 "*":
   Hydrogen:
     grammarToKernel: "{\"python\":\"Python 3\"}"
-    kernelspec: "{\"kernelspecs\":{\"python3\":{\"resources_dir\":\"/home/roronya/.pyenv/versions/3.4.3/lib/python3.4/site-packages/ipykernel/resources\",\"spec\":{\"language\":\"python\",\"display_name\":\"Python 3\",\"argv\":[\"/home/roronya/.pyenv/versions/3.4.3/bin/python3.4\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"],\"env\":{}}}}}"
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"resource_dir\":\"/usr/local/lib/python3.4/dist-packages/ipykernel/resources\",\"spec\":{\"display_name\":\"Python 3\",\"argv\":[\"/usr/bin/python3\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"],\"language\":\"python\",\"env\":{}}}}}"
   "atom-beautify":
     general:
       _analyticsUserId: "01c1368c-6e89-476f-8135-132294ef41f5"
+  "atom-material-ui":
+    fonts:
+      fontSize: 20
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
@@ -13,10 +23,10 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-dark"
+      "atom-dark-syntax"
     ]
   editor:
-    fontSize: 29
+    fontSize: 23
     invisibles: {}
     showInvisibles: true
     tabType: "soft"
