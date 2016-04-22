@@ -12,8 +12,8 @@
       "disable-keybindings"
     ]
     themes: [
-      "atom-dark-ui"
-      "atom-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax-dark"
     ]
   "disable-keybindings":
     bundledPackages: [
@@ -23,8 +23,8 @@
       "bracket-matcher"
     ]
   editor:
+    fontSize: 23
     invisibles: {}
-    showIndentGuide: true
     showInvisibles: true
     tabType: "soft"
   "exception-reporting":

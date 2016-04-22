@@ -1,3 +1,5 @@
+atom-material-ui
+atom-material-syntax-dark
 Hydrogen
 atom-beautify
 autocomplete-python
@@ -13,3 +15,4 @@ vim-mode-plus
 linter-flake8
 advanced-open-file
 remote-edit
+indent-guide-improved

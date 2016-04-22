@@ -6,6 +6,7 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
 
   # pane
+  'ctrl-w': 'unset'
   'shift-space p s h': 'pane:split-left-and-copy-active-item'
   'shift-space p s j': 'pane:split-down-and-copy-active-item'
   'shift-space p s k': 'pane:split-up-and-copy-active-item'
@@ -14,20 +15,26 @@
   'shift-space p j': 'window:focus-pane-below'
   'shift-space p k': 'window:focus-pane-above'
   'shift-space p l': 'window:focus-pane-on-right'
-  'shift-space p w': 'pane:close'
-  'shift-space t w': 'tabs:close-tab'
+  'shift-space p d': 'pane:close'
+  'shift-space t d': 'tabs:close-tab'
   'shift-space p =': 'pane:increase-size'
   'shift-space p -': 'pane:decrease-size'
 
   # like emacs
   'ctrl-x ctrl-s': 'core:save'
   'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-x ctrl-c': 'window:close'
+  'ctrl-x ctrl-q': 'window:close'
   'ctrl-x ctrl-d': 'tree-view:toggle-focus'
   'alt-x': 'command-palette:toggle'
 
+# vim-mode
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-w ctrl-c': 'unset!'
+
+# hydrogen
 'atom-text-editor':
   'ctrl-x ctrl-e': 'hydrogen:run'
+
 
 # cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':
