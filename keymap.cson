@@ -1,8 +1,11 @@
 'body':
+  # tab
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
+
+  # pane
   'shift-space p s h': 'pane:split-left-and-copy-active-item'
   'shift-space p s j': 'pane:split-down-and-copy-active-item'
   'shift-space p s k': 'pane:split-up-and-copy-active-item'
@@ -12,51 +15,29 @@
   'shift-space p k': 'window:focus-pane-above'
   'shift-space p l': 'window:focus-pane-on-right'
   'shift-space p w': 'pane:close'
+  'shift-space t w': 'tabs:close-tab'
   'shift-space p =': 'pane:increase-size'
   'shift-space p -': 'pane:decrease-size'
-  'ctrl-alt-h': 'core:close'
-  'ctrl-k ctrl-w': 'unset!'
-  'ctrl-w': 'unset!'
 
-'atom-text-editor':
-  'alt-b': 'unset!'
-  'alt-d': 'unset!'
-  'alt-f': 'unset!'
-  'alt-h': 'unset!'
-  'alt-shift-B': 'unset!'
-  'alt-shift-F': 'unset!'
-  'ctrl-alt-b': 'unset!'
-  'ctrl-alt-d': 'unset!'
-  'ctrl-alt-f': 'unset!'
-  'ctrl-alt-h': 'unset!'
-  'ctrl-alt-shift-B': 'unset!'
-  'ctrl-alt-shift-F': 'nnset!'
+  # like emacs
+  'ctrl-x ctrl-s': 'core:save'
+  'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
+  'alt-x': 'command-palette:toggle'
 
-
+# cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':
   'ctrl-c': 'tool-panel:unfocus'
-
 'atom-text-editor , atom-text-editor[mini] ':
   'ctrl-c': 'editor:consolidate-selections'
-
 'atom-text-editor.vim-mode-plus':
   'ctrl-c': 'vim-mode-plus:reset-normal-mode'
-
 'atom-text-editor.vim-mode-plus:not(.normal-mode)':
   'ctrl-c': 'vim-mode-plus:activate-normal-mode'
-
 '.tree-view-dialog atom-text-editor[mini]':
   'ctrl-c': 'core:cancel'
-
 'atom-text-editor.autocomplete-active':
   'ctrl-c': 'autocomplete-plus:cancel'
-
 '.go-to-line atom-text-editor[mini]':
   'ctrl-c': 'core:cancel'
-
 '.platform-darwin, .platform-win32, .platform-linux':
   'ctrl-c': 'core:cancel'
-
-'.platform-linux, .platform-linux .command-palette atom-text-e':
-  'ctrl-shift-P': 'unset!'
-  'alt-x': 'command-palette:toggle'

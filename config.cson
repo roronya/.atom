@@ -23,7 +23,6 @@
       "bracket-matcher"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
