@@ -22,7 +22,12 @@
   # like emacs
   'ctrl-x ctrl-s': 'core:save'
   'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-x ctrl-c': 'window:close'
+  'ctrl-x ctrl-d': 'tree-view:toggle-focus'
   'alt-x': 'command-palette:toggle'
+
+'atom-text-editor':
+  'ctrl-x ctrl-e': 'hydrogen:run'
 
 # cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':
