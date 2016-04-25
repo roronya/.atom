@@ -20,12 +20,19 @@
   'shift-space p =': 'pane:increase-size'
   'shift-space p -': 'pane:decrease-size'
 
+  # command-palette
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
+
   # like emacs
   'ctrl-x ctrl-s': 'core:save'
   'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
   'ctrl-x ctrl-q': 'window:close'
   'ctrl-x ctrl-d': 'tree-view:toggle-focus'
   'alt-x': 'command-palette:toggle'
+
+  # disable menu bar
+  'alt': 'abort!'
 
 # vim-mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
