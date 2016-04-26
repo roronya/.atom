@@ -29,10 +29,45 @@
   'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
   'ctrl-x ctrl-q': 'window:close'
   'ctrl-x ctrl-d': 'tree-view:toggle-focus'
+  'ctrl-x ctrl-x': 'script:run'
   'alt-x': 'command-palette:toggle'
 
   # disable menu bar
   'alt': 'abort!'
+
+  # disable ctrl-k prefix keymap
+  'ctrl-k ctrl-alt-w': 'unset!'
+  'ctrl-k ctrl-down': 'unset!'
+  'ctrl-k ctrl-left': 'unset!'
+  'ctrl-k ctrl-n': 'unset!'
+  'ctrl-k ctrl-p': 'unset!'
+  'ctrl-k ctrl-right': 'unset!'
+  'ctrl-k ctrl-up': 'unset!'
+  'ctrl-k ctrl-w': 'unset!'
+  'ctrl-k down': 'unset!'
+  'ctrl-k left': 'unset!'
+  'ctrl-k right': 'unset!'
+  'ctrl-k up': 'unset!'
+
+# disable ctrl-k prefix keymap
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-k ctrl-0': 'unset!'
+  'ctrl-k ctrl-1': 'unset!'
+  'ctrl-k ctrl-2': 'unset!'
+  'ctrl-k ctrl-3': 'unset!'
+  'ctrl-k ctrl-4': 'unset!'
+  'ctrl-k ctrl-5': 'unset!'
+  'ctrl-k ctrl-6': 'unset!'
+  'ctrl-k ctrl-7': 'unset!'
+  'ctrl-k ctrl-8': 'unset!'
+  'ctrl-k ctrl-9': 'unset!'
+
+'.platform-win32, .platform-linux':
+  'ctrl-k ctrl-b': 'unset!'
+
+# dictionary
+'atom-workspace':
+  'shift-space d': 'japanese-dictionary:open-by-input'
 
 # vim-mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
@@ -50,7 +85,6 @@
 # hydrogen
 'atom-text-editor':
   'ctrl-x ctrl-e': 'hydrogen:run'
-
 
 # cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':

@@ -1,7 +1,7 @@
 "*":
   Hydrogen:
     grammarToKernel: "{\"python\":\"Python 3\"}"
-    kernelspec: "{\"kernelspecs\":{\"python3\":{\"resource_dir\":\"/home/roronya/.pyenv/versions/3.4.3/lib/python3.4/site-packages/ipykernel/resources\",\"spec\":{\"display_name\":\"Python 3\",\"language\":\"python\",\"env\":{},\"argv\":[\"/home/roronya/.pyenv/versions/3.4.3/bin/python3.4\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]}}}}"
+    kernelspec: "{\"kernelspecs\":{\"python3\":{\"spec\":{\"language\":\"python\",\"env\":{},\"display_name\":\"Python 3\",\"argv\":[\"/home/roronya/.pyenv/versions/3.4.3/bin/python3.4\",\"-m\",\"ipykernel\",\"-f\",\"{connection_file}\"]},\"resource_dir\":\"/home/roronya/.pyenv/versions/3.4.3/lib/python3.4/site-packages/ipykernel/resources\"}}}"
   "atom-beautify":
     general:
       _analyticsUserId: "01c1368c-6e89-476f-8135-132294ef41f5"
@@ -28,7 +28,7 @@
       "atom-dark-syntax"
     ]
   editor:
-    fontSize: 20
+    fontSize: 19
     invisibles: {}
     showInvisibles: true
     tabType: "soft"
@@ -42,6 +42,7 @@
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
   "one-light-ui": {}
+  "remote-sync": {}
   "tree-view":
     hideVcsIgnoredFiles: true
   "vim-mode-plus":
