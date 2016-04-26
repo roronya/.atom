@@ -65,15 +65,17 @@
 '.platform-win32, .platform-linux':
   'ctrl-k ctrl-b': 'unset!'
 
+# dictionary
+'atom-workspace':
+  'shift-space d': 'japanese-dictionary:open-by-input'
+
 # vim-mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   'ctrl-w ctrl-c': 'unset!'
 
-
 # hydrogen
 'atom-text-editor':
   'ctrl-x ctrl-e': 'hydrogen:run'
-
 
 # cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':
