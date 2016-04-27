@@ -19,6 +19,8 @@
   'shift-space t d': 'tabs:close-tab'
   'shift-space p =': 'pane:increase-size'
   'shift-space p -': 'pane:decrease-size'
+  'shift-space t t': 'tree-view:toggle'
+  'shift-space t f': 'tree-view:toggle-focus'
 
   # command-palette
   'ctrl-j': 'core:move-down'
@@ -26,9 +28,9 @@
 
   # like emacs
   'ctrl-x ctrl-s': 'core:save'
+  'ctrl-x ctrl-w': 'tree-view:rename'
   'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
   'ctrl-x ctrl-q': 'window:close'
-  'ctrl-x ctrl-d': 'tree-view:toggle-focus'
   'ctrl-x ctrl-x': 'script:run'
   'alt-x': 'command-palette:toggle'
 
@@ -82,10 +84,19 @@
   'home': 'autocomplete-plus:move-to-top'
   'end': 'autocomplete-plus:move-to-bottom'
 
-# hydrogen
 'atom-text-editor':
-  'ctrl-x ctrl-e': 'hydrogen:run'
+  'shift-space h e': 'hydrogen:run'
+  'shift-space h a': 'hydrogen:run-all'
+  'shift-space h c': 'hydrogen:show-kernel-commands'
+  'ctrl-k ctrl-d': 'unset!'
+  'ctrl-k ctrl-l': 'unset!'
+  'ctrl-k ctrl-u': 'unset!'
 
+'.tree-view':
+  'ctrl-k h': 'unset!'
+  'ctrl-k j': 'unset!'
+  'ctrl-k k': 'unset!'
+  'ctrl-k l': 'unset!'
 # cancel
 '.tool-panel.panel-left, .tool-panel.panel-right':
   'ctrl-c': 'tool-panel:unfocus'

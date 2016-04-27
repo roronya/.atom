@@ -10,10 +10,8 @@ minimap-autohide
 minimap-bookmarks
 project-manager
 script
-term3
 vim-mode-plus
 linter-flake8
-advanced-open-file
 remote-edit
 indent-guide-improved
 browser-plus
