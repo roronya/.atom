@@ -22,15 +22,18 @@
     disabledPackages: [
       "remove-all-keybindings"
       "disable-keybindings"
+      "symbols-view"
     ]
     themes: [
       "atom-material-ui"
       "atom-dark-syntax"
     ]
   editor:
-    fontSize: 19
+    fontSize: 17
     invisibles: {}
+    showIndentGuide: true
     showInvisibles: true
+    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "94235aa4-f339-316d-4dc0-f619aa2163e2"

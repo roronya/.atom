@@ -12,9 +12,9 @@ project-manager
 script
 vim-mode-plus
 linter-flake8
-remote-edit
 indent-guide-improved
 browser-plus
 remote-ftp
 japanese-dictionary
 git-plus
+atom-ctags

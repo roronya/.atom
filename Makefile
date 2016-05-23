@@ -1,6 +1,6 @@
 ATOMHOME = $$HOME/.atom
 
-install: python-lint hydrogen
+install: python-lint hydrogen ctags
 	$(ATOMHOME)/bin/apm-install $(ATOMHOME)/atomfile
 
 python-lint: pip
@@ -12,3 +12,6 @@ hydrogen: pip
 
 pip:
 	sudo apt-get -y install python-pip
+
+ctags:
+	sudo apt-get -y install exuberant-ctags
